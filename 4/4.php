@@ -20,6 +20,7 @@ function carry($arr) {
     return $res;
 }
 
+echo "Task 4\n";
 echo carry([123, 456]),"\n"; // 0
 echo carry([555, 555]),"\n"; // 3
 echo carry([123, 594]),"\n"; // 1
