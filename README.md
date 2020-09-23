@@ -1,0 +1,10 @@
+Solutions to the September 2020 akademos test  
+1: [/1/1.php](https://github.com/megabyte0/akademos/blob/master/1/1.php)  
+2: [/2/2.js](https://github.com/megabyte0/akademos/blob/master/2/2.js)  
+3: [/3/3.js](https://github.com/megabyte0/akademos/blob/master/3/3.js)  
+4: [/4/4.php](https://github.com/megabyte0/akademos/blob/master/4/4.php)  
+5: [/5/5.js](https://github.com/megabyte0/akademos/blob/master/5/5.js)  
+6: [/6/a.sql](https://github.com/megabyte0/akademos/blob/master/6/a.sql) 
+[/6/b.sql](https://github.com/megabyte0/akademos/blob/master/6/b.sql) 
+[/6/c.sql](https://github.com/megabyte0/akademos/blob/master/6/c.sql) 
+[/6/d.sql](https://github.com/megabyte0/akademos/blob/master/6/d.sql)
