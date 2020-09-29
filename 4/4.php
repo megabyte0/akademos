@@ -5,9 +5,10 @@ function carry($arr) {
     $arrCopy=$arr;//https://stackoverflow.com/a/1532632
     $hasNonZero=true;
     $res=0;
+    $carry=0;
     while ($hasNonZero) {
         $hasNonZero=false;
-        $lastDigitSum=0;
+        $lastDigitSum=$carry;
         foreach ($arrCopy as &$elem) {
             $lastDigitSum+=$elem%10;
             $elem=intdiv($elem,10);
@@ -15,7 +16,8 @@ function carry($arr) {
                 $hasNonZero=true;
             }
         }
-        $res+=intdiv($lastDigitSum,10);
+        $carry=intdiv($lastDigitSum,10);
+        $res+=$carry;
     }
     return $res;
 }
@@ -27,4 +29,5 @@ echo carry([123, 594]),"\n"; // 1
 
 //Support of arbitrary number of operands will be a plus:
 echo carry([123, 123, 804]),"\n"; // 2
+echo carry([11, 89]),"\n"; // 2
 
